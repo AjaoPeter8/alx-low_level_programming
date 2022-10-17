@@ -2,9 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - prints the last digit of n
- * @n: The number to be checked
- * @ld: The last digit
+ * main - prints the last digit
  * Return: 0
 */
 int main(void)
