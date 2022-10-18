@@ -11,7 +11,7 @@ char n;
 n = 0;
 while (n < 10)
 {
-putchar("%d", n);
+printf("%d", n);
 n++;
 }
 putchar('\n');
