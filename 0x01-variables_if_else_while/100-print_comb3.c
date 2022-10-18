@@ -7,15 +7,15 @@ int main(void)
 {
 int a;
 int b;
-a = 0;
-b = 0;
-while (a < 9)
+a = '0';
+b = '0';
+while (a < '9')
 {
-while (b < 9)
+while (b < '9')
 {
 if (!(a > b || a == b))
 {
-if (a == 8 && b == 9)
+if (a == '8' && b == '9')
 {
 putchar('\n');
 }
@@ -27,7 +27,7 @@ putchar(' ');
 }
 b++;
 }
-b = 0;
+b = '0';
 a++;
 }
 return (0);
