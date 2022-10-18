@@ -16,7 +16,7 @@ while (n < 10)
 putchar(n + '0');
 n++;
 }
-while (c < 'h')
+while (c < 'g')
 {
 putchar(c);
 c++;
