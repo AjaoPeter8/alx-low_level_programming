@@ -5,6 +5,9 @@
 */
 int main(void)
 {
+void _putchar()
+{
 putchar("_putchar\n");
+}
 return (0);
 }
