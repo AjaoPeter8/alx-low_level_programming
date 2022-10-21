@@ -2,6 +2,7 @@
 
 /**
  * print_line - draws a straight line
+ * @n: length of line
  * Return: void
 */
 
