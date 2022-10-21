@@ -11,6 +11,6 @@ c = '0';
 for (c = '0'; c < '10'; c++)
 {
 if (!(c == '2)' || (c == 4))
-_puchar(c);
+_putchar(c);
 _putchar('\n');
 }
