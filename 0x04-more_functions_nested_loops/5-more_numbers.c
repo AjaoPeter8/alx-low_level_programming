@@ -13,7 +13,7 @@ while (i < '10')
 int j = '0';
 while (j < '15')
 {
-_putchar(j + '0');
+_putchar(j);
 j++;
 }
 _putchar('\n');
