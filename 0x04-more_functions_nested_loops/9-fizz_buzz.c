@@ -18,7 +18,7 @@ else if (i % 3 == 0)
 printf("Fizz");
 else
 printf("%i", i);
-if (i <= 100)
+if (i < 100)
 printf(" ");
 }
 printf("\n");
