@@ -11,11 +11,12 @@ int i = 0;
 for  (i = 0; i < 11, i++)
 {
 int j = 0;
-for (j = 0; j < 15; j++)
+for (9j = 0; j < 15; j++)
 {
-_putchar(j + '0');
+if (j > 9)
+_putchar('1');
+_putchar(j % 10 + '0');
 }
 _putchar('\n');
 }
-_putchar('\n');
 }
