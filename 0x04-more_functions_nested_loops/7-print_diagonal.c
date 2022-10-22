@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - print a diagonal line
+ * @n: length of diagonal
  * Return: 0
 */
 void print_diagonal(int n)
