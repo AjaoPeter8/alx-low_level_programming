@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * _strcat - conctenates two strings
- * @dest: First string
- * @src: Second string
- * Return: char
+ * _strncat - concatenates two strings.
+ * @dest: first string
+ * @src: second string
+ * @n: no of string to be copied
+ * Return: pointer to the resulting dest
 */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 int i;
 int j;
