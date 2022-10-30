@@ -2,14 +2,14 @@
 
 /**
  * reverse_array - that reverses the content of an array of integers.
- * @int a: array
- * @int n: integer
+ * @a: array
+ * @n: integer
  * Return: void
 */
 
 void reverse_array(int *a, int n)
 {
-int i,c;
+int i, c;
 for (i = 0; (i < (n - 1) / 2); i++)
 {
 c = a[i];
