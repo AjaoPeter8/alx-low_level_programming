@@ -35,6 +35,7 @@ if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 height++;
 aout = malloc((height + 1) * sizeof(char *));
 if (aout == NULL || height == 0)
+{
 free(aout);
 return (NULL);
 }
@@ -53,6 +54,7 @@ ch_free_grid(aout, i);
 return (NULL);
 }
 break;
+}
 }
 for (j = 0; a1 <= c; a1++, j++)
 aout[i][j] = str[a1];
